@@ -1,12 +1,9 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float _health;
     [SerializeField] private int _coins;
-
-    public UnityAction<int> HealthChanged;
 
     public void AddCoin()
     {
